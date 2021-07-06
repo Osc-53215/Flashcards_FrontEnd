@@ -5,7 +5,8 @@ import Button from './Button';
 function Header() {
     return (
         <div className = 'header'>
-
+            <h1>Flashcards</h1>
+            
             <div className = 'header__button'>
                 <Button />
             </div>       
