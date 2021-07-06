@@ -1,14 +1,14 @@
 import React from 'react';
 import './Header.css';
-import Button from './Button';
+import ButtonHeader from './ButtonHeader';
 
 function Header() {
     return (
         <div className = 'header'>
             <h1>Flashcards</h1>
-            
+
             <div className = 'header__button'>
-                <Button />
+                <ButtonHeader />
             </div>       
 
         </div>
