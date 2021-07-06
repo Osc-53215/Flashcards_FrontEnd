@@ -3,8 +3,12 @@ import './Header.css'
 
 function Header() {
     return (
-        <div>
+        <div className = 'header'>
+
+            <div className = 'header__button'>
             
+            </div>       
+                 
         </div>
     )
 }
