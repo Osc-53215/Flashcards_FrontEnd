@@ -1,11 +1,13 @@
 import React from 'react';
-import './ButtonBody'
+import './ButtonBody.css'
 
 function ButtonBody() {
     return (
         <div className = 'buttonbody'>
+
             <button onClick = 'addFlashcard()'>Save</button>
-            <button onClick = 'hideCreatBoxFlashCards()'>Close</button>            
+            <button onClick = 'hideCreatBoxFlashCards()'>Close</button>
+
         </div>
     )
 }
