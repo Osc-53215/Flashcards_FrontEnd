@@ -1,4 +1,9 @@
-.createcards {
+.createcards > h2{
     text-align: center;
     color: black;
+}
+
+.createcards {
+    width: 95%;
+    margin: auto;
 }
