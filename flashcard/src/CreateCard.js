@@ -3,7 +3,8 @@ import './CreateCard.css';
 
 function CreateCard() {
     return (
-        <div>
+        <div className = 'createcards'>
+            <h2>Create Flashacards</h2>
             
         </div>
     )
