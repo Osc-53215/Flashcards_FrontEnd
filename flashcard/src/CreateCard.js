@@ -4,12 +4,12 @@ import ButtonBody from './ButtonBody';
 
 function CreateCard() {
     return (
-        <>
         <div className = 'createcards'>
+        <div className = 'createcards__body'>
             <h2>Create Flashacards</h2>
         </div>
 
-        <div className = 'creatcards__label'>
+        <div className = 'createcards__label'>
             <label for = 'question'>Questions</label>
             <textarea id = 'question'/>
             <br/>
@@ -22,7 +22,7 @@ function CreateCard() {
         <div className = 'createcards__flashcards'>
 
         </div>
-        </>
+        </div>
     )
 }
 

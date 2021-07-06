@@ -1,9 +1,26 @@
-.createcards > h2{
+.createcards__body > h2{
     text-align: center;
     color: black;
 }
 
-.createcards {
+.createcards__body {
     width: 95%;
     margin: auto;
+}
+
+.createcards {
+    width: 380px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.createcards__label > textarea{
+    width: 100%;
+    border-radius: 5px;
+    font-family: inherit;
+    border: 1px solid lightgray;
 }
