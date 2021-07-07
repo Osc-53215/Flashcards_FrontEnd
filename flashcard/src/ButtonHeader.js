@@ -4,7 +4,7 @@ import './ButtonHeader.css';
 
 function Button(props) {
     
-    const decks = props.data;
+    // const decks = props.data;
 
     return (
 
@@ -12,16 +12,16 @@ function Button(props) {
         
         <div className = 'buttonheader'>
 
-             {decks.map((deck) =>
+            
              
              <div>
-                 
-            <button onClick = 'showCreateCardBox()'>New Card</button>
-            <button onClick = {() => props.callDeleteDeck(deck._id)}>Delete Card</button>
+
+                <button onClick = 'showCreateCardBox()'>New Card</button>
+                <button /*onClick = {() => props.callDeleteDeck(deck._id)}*/>Delete Card</button> 
 
             </div>
              
-             )}   
+           
             
             
         </div>
