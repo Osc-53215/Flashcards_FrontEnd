@@ -24,3 +24,26 @@
     font-family: inherit;
     border: 1px solid lightgray;
 }
+
+.createcards__flashcards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.createcards__flashcard {
+    width: 370px;
+    height: 200px;
+    word-wrap: break-word;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.createcards__flashcards > h2 {
+    font-size: 1rem;
+}
