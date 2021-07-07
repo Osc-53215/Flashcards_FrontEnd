@@ -1,13 +1,28 @@
 import React from 'react';
 import './ButtonHeader.css';
 
-function Button() {
+
+function Button(props) {
+    
+    const decks = props.data;
 
     return (
+
+
+        
         <div className = 'buttonheader'>
 
+             {decks.map((deck) =>
+             
+             <div>
+                 
             <button onClick = 'showCreateCardBox()'>New Card</button>
-            <button onClick = 'delFlashCards()'>Delete Card</button>
+            <button onClick = {() => props.callDeleteDeck(deck._id)}>Delete Card</button>
+
+            </div>
+             
+             )}   
+            
             
         </div>
     )
