@@ -3,13 +3,6 @@ import './ButtonHeader.css';
 
 function Button() {
 
-    function delFlashcards(){
-        db.collection.remove();
-        flashcards.innerHTML = '';
-        contentArray = [];
-    }
-
-
     return (
         <div className = 'buttonheader'>
 
